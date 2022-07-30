@@ -1,6 +1,7 @@
 package jp.iceserver.drywater
 
-import jp.iceserver.drywater.commands.HubCommand
+import jp.iceserver.drywater.commands.*
+import jp.iceserver.drywater.listeners.*
 
 class Drywater : AbstractDrywater()
 {
@@ -11,6 +12,10 @@ class Drywater : AbstractDrywater()
     override fun onEnable()
     {
         plugin = this
+
+        registerListeners(
+            ServerKick()
+        )
 
         registerCommands(
             HubCommand()
