@@ -1,6 +1,5 @@
 package jp.iceserver.drywater.listeners
 
-import hazae41.minecraft.kutils.bungee.msg
 import jp.iceserver.drywater.Drywater
 import net.md_5.bungee.api.event.ServerKickEvent
 import net.md_5.bungee.api.plugin.Listener
