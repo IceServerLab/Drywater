@@ -1,0 +1,4 @@
+name: Drywater
+version: '${version}'
+main: jp.iceserver.drywater.Drywater
+description: 中継サーバー用の多機能プラグイン(笑)
