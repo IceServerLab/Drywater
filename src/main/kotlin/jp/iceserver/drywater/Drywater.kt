@@ -1,8 +1,6 @@
 package jp.iceserver.drywater
 
-import net.md_5.bungee.api.plugin.Plugin
-
-class Drywater : Plugin()
+class Drywater : AbstractDrywater()
 {
     companion object
     {
